@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  
+  @font-face {
+    font-family: ROG;
+    src: url(./assets/font/ROG.ttf);
+  }
+  .rog{
+    font-family: ROG;
+  }
+  
+  .custom-bg {
+    background-color: #222323;
+  }
+  
+  .pic-bg{
+     background-color: #151414;
+  }
+  .projectcard-bg{
+     background-color: rgba(34, 35, 35, 5);
+  }
+  
+  
+  @font-face {
+    font-family: orbit;
+    src: url(./assets/font/orbit.ttf);
+  }
+  
+  .orbit{
+    font-family: orbit;
+  }
+  
+  
+  .app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+  }
+  
+  .card {
+    width: 100vw; /* Adjust the width of the card as needed */
+    height: 400px; /* Adjust the height of the card as needed */
+    border: 1px solid #ccc; /* Example border for the card */
+    border-radius: 8px; /* Optional: Round the corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    background-color: black;/* Optional: Add a shadow */
+  }
+  
