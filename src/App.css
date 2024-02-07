@@ -61,3 +61,34 @@
       opacity: 1;
     }
   }
+
+
+  /* Gallery CSS */
+
+/* Styles for the black and white effect by default */
+.grayscale {
+  filter: grayscale(100%);
+  transition: filter 0s ease-in-out;  }
+
+/* Styles for the original color effect on hover */
+.grayscale:hover {
+  filter: grayscale(0%);
+}
+
+
+.card-inner {
+  width: inherit;
+  height: inherit;
+  background: rgba(255,255,255,.05);
+  box-shadow: 0 0 10px rgba(0,0,0,0.25);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+}
+
+.card-div{
+  width: 250px; 
+  height: 340px;
+  transition: all 0.2s;
+  position: relative;
+  cursor: pointer;
+}
