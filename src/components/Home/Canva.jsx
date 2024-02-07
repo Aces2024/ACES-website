@@ -4,7 +4,7 @@ import { Experience } from './Experience';
 
 const Canva = () => {
   return (
-    <div className="w-screen h-screen fixed top-0 left-0 z-0">
+    <div className=" h-screen">
       <Canvas
         frameloop="demand"
         shadows

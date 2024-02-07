@@ -4,9 +4,16 @@ import React, { useEffect } from "react";
 import Pic from "./components/Teams/Pic";
 import Team from "./components/Teams/Team";
 import Technical from "./components/Teams/Technical";
+import Sports from "./components/Teams/Sports";
+import Management from "./components/Teams/Management";
+import Cultural from "./components/Teams/Cultural";
+
 import Back from "./components/Home/Back";
 import ModelBack from "./components/Home/ModelBack";
 import Footer from "./components/Footer/Footer";
+import New from "./components/Projects/New";
+import Pro from "./components/Projects/Pro";
+
 
 
 
@@ -19,22 +26,23 @@ function App() {
 
   return (
     <>
-    <Back />
+      <ModelBack />
+    {/* <Back /> */}
     {/* <New /> */}
 {/* <Pic/> 
   <Team/>   */}
-   <Technical/>  
-  {/*<Management/>
+   {/* <Technical/>   */}
+  <Management/>
  <Sports/>
-  <Cultural/>*/}
+  <Cultural/>
   {/* <NewsLetter/>  */}
   {/* <Gallery />*/}
-  <Footer/>   
+  {/* <Footer/>    */}
   {/* <ProjectCard /> */}
   {/* <Test /> */}
   {/* <AboutUs /> */}
   {/* <ImageEffect /> */}
-  {/* <ModelBack /> */}
+
 
     </> 
   );
