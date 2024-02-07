@@ -3,7 +3,7 @@ import ModelBack from './ModelBack'
 
 const Back = () => {
   return (
-    <div className='w-screen h-screen bg-black'>
+    <div className='w-screen h-screen pt-10 bg-[#151414]'>
         <ModelBack />
     </div>
   )

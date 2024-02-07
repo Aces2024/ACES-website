@@ -13,7 +13,7 @@ function Contact() {
         
           <h1 className='lg:text-7xl text-4xl md:mb-0 mb-6 lg:leading-normal font-semibold py-20   flex justify-center
           '><MdOutlineHorizontalRule className='lg:text-8xl  ' style={{ marginTop: '2px', marginBottom:'2px' }} />
-          <span className='text-teal-400 pr-4'>GET </span>  IN TOUCH
+          <span className='text-[#23CBA3] pr-4'>GET </span>  IN TOUCH
           
           <MdOutlineHorizontalRule className='lg:text-8xl' lg:style={{ marginTop: '16px' }}/>
           </h1>
@@ -22,14 +22,6 @@ function Contact() {
 
         <div className='lg:flex  justify-around'>
           <div className=''>
-              {/* <h1 className='lg:text-4xl text-2xl md:mb-4 mb-4 lg:leading-normal flex justify-center lg:pl-8 pl-12 '>
-                If you have any queries or wanna join us, feel free to contact us
-
-              </h1>
-              <h1 className='lg:text-4xl text-3xl md:mb-4 mb-4 lg:leading-normal flex justify-center  '>
-                feel free to contact us 
-
-              </h1> */}
               <div className='flex justify-center'>
 
                 <div>
@@ -67,7 +59,7 @@ function Contact() {
                     <div className='flex justify-center'>
                     <button
                       type="submit"
-                      className="bg-teal-400 py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary border border-black hover:bg-teal-500 active:bg-[#FEFEFE] mb-2"
+                      className="bg-[#23CBA3] py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary border border-black hover:bg-teal-500 active:bg-[#FEFEFE] mb-2"
                     >
                       {"Send"}
                     </button>
@@ -81,7 +73,7 @@ function Contact() {
             </div>
             <div className='All flex-col items-start'>
             <div className=' lg:pl-8 pl-5 md:  py-8 lg:text-right '>
-              <h1 className=' lg:text-4xl text-3xl font-bold text-teal-600 flex lg:justify-start justify-center lg:pr-8 lg:mb-6'>
+              <h1 className=' lg:text-4xl text-3xl font-bold text-[#23CBA3] flex lg:justify-start justify-center lg:pr-8 lg:mb-6'>
                 Contact Information
               </h1>
               <div className='flex justify-center pl-5 py-2 lg:justify-start'>
@@ -94,7 +86,7 @@ function Contact() {
                 <h1 className='px-2 ' >+91 9876543210</h1>
               </div>
               <div className='contact lg:justify-start flex-col items-start'>
-                <p className='flex justify-center lg:flex lg:justify-start lg:pl-2 text-teal-600 mt-10 font-bold text-2xl'>
+                <p className='flex justify-center lg:flex lg:justify-start lg:pl-2 text-[#23CBA3] mt-10 font-bold text-2xl'>
                   Socials
                 </p>
                 <div className='flex py-2 pr-8 lg:flex lg:justify-start justify-center lg:pl-8 pl-8'>

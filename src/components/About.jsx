@@ -4,7 +4,7 @@ import { faCameraRetro, faFileLines, faLaptopCode, faMedal, faMusic, faUserGroup
 
 const About = () => {
   return (
-    <div className="w-screen bg-[#151414]">
+    <div className="w-screen bg-[#151414] pt-24">
       <div className="py-10 sm:py-2 block lg:py-2 relative  bg-opacity-50">
         <div className="relative mx-auto h-full px-4 pb-20 md:pb-10 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8">
 
@@ -20,7 +20,7 @@ const About = () => {
 
             <div className="grid  grid-cols-1 gap-2 mt-12 sm:grid-cols-3 lg:mt-20">
             <a href="#"
-              className="transition-all duration-1000  bgco text-white   hover:shadow-xl m-2 p-4 relative z-40 group rounded-lg"
+              className="transition-all duration-1000  bgco text-white   hover:shadow-xl m-2 p-4 relative  group rounded-lg"
               data-aos="zoom-in-down"
               data-aos-delay="300">
               <div className="absolute bg-gray-600 top-0 left-0 w-24 h-1 z-30 transition-all duration-200 group-hover:bg-white group-hover:w-1/2"></div>
@@ -37,7 +37,7 @@ const About = () => {
 
               <a
                 href="#"
-                className="transition-all duration-1000  bgco hover:shadow-xl m-2 p-4 relative z-40 group text-white border-[#FEFEFF] rounded-lg"
+                className="transition-all duration-1000  bgco hover:shadow-xl m-2 p-4 relative  group text-white border-[#FEFEFF] rounded-lg"
                 data-aos="zoom-in-down"
                 data-aos-delay="400"
               >
@@ -54,7 +54,7 @@ const About = () => {
 
               <a
                 href="#"
-                className="transition-all duration-1000 bgco text-white  hover:shadow-xl m-2 p-4 relative z-40 group  border-[#FEFEFF] rounded-lg"
+                className="transition-all duration-1000 bgco text-white  hover:shadow-xl m-2 p-4 relative  group  border-[#FEFEFF] rounded-lg"
                 data-aos="zoom-in-down"
                 data-aos-delay="500"
               >
@@ -72,7 +72,7 @@ const About = () => {
 
               <a
                 href="#"
-                className="transition-all duration-1000 bgco text-white hover:shadow-xl m-2 p-4 relative z-40 group border-[#FEFEFF] rounded-lg"
+                className="transition-all duration-1000 bgco text-white hover:shadow-xl m-2 p-4 relative  group border-[#FEFEFF] rounded-lg"
                 data-aos="zoom-in-down"
                 data-aos-delay="300"
               >
@@ -89,7 +89,7 @@ const About = () => {
 
               <a
                 href="#"
-                className="transition-all duration-1000 bgco hover:shadow-xl m-2 p-4 relative z-40 group text-white border-[#FEFEFF] rounded-lg"
+                className="transition-all duration-1000 bgco hover:shadow-xl m-2 p-4 relative  group text-white border-[#FEFEFF] rounded-lg"
                 data-aos="zoom-in-down"
                 data-aos-delay="400"
               >
@@ -106,7 +106,7 @@ const About = () => {
 
               <a
                 href="#"
-                className="transition-all duration-1000 bgco text-white hover:shadow-xl m-2 p-4 relative z-40 group  border-[#FEFEFF] rounded-lg"
+                className="transition-all duration-1000 bgco text-white hover:shadow-xl m-2 p-4 relative  group  border-[#FEFEFF] rounded-lg"
                 data-aos="zoom-in-down"
                 data-aos-delay="500"
               >
