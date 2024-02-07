@@ -2,10 +2,16 @@ import React, { useState } from "react";
 import { motion, useSpring, useTransform, useMotionValue } from "framer-motion";
 import RegRSVP from "./ModalRSVP";
 import { data } from "./data.js";
+// import "bootstrap/dist/css/bootstrap.min.css";
 
 const SomeCard = () => {
     return (
-        <div className=" bg-[#151414]">
+        <div className=" bg-[#151414] pt-32 text-center">
+             <div className="inline-flex px-4  mx-auto rounded-full">
+                <p className="rog text-6xl font-extrabold text-[#FEFEFF] tracking-widest text-g uppercase"
+                data-aos="zoom-out"
+                data-aos-delay="300">Events</p>
+              </div>
             {data.map((item, index) => {
                 return (
                     <div
@@ -65,7 +71,9 @@ const Card = ({ data }) => {
     };
 
     return (
-        <div className="h-full bg-[#151414] rounded-xl ">
+       
+        <div className="h-full bg-[#151414] text-center pt-14 rounded-xl ">
+             
             <motion.div
                 onMouseMove={handleMouseMove}
                 onMouseLeave={handleMouseLeave}
@@ -128,6 +136,7 @@ const Card = ({ data }) => {
                 </div>
             )}
         </div>
+       
     );
 };
 
