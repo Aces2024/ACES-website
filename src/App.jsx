@@ -12,6 +12,7 @@ import Technical from './components/Teams/Technical.jsx';
 import Management from './components/Teams/Management.jsx';
 import Cultural from './components/Teams/Cultural.jsx';
 import Sports from './components/Teams/Sports.jsx';
+import About from './components/About.jsx';
 
 function App() {
 
@@ -22,7 +23,7 @@ function App() {
         <Route path="/" element={<Back/>} />
         <Route path="/team" element={<All/>} />
         <Route path="/project" element={<New/>} />
-        <Route path="/gallery" element={<Gallery/>} />
+        <Route path="/about" element={<Gallery/>} />
         <Route path="/newsletter" element={<Newsletter/>} />
         <Route path='/contact' element={<Contact/>} />
         <Route path="/technical" element={<Technical/>} />

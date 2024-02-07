@@ -1,24 +1,41 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Footer() {
-    const data =["Home", "Events", "Teams", "Newsletter"]
+    const data =[{
+      name: "Home",
+      label: ''
+    }, 
+    {
+      name: "Event",
+      label: 'event'
+    },
+    {
+      name: "Contact",
+      label:"contact"
+    },
+    {
+      name: "Team",
+      label: 'team'
+    }
+  ]
   return (
     <>
-    <div className='h-1/5 bg-[#151414] pt-10 pb-10  flex justify-around items-start'>
+    <div className='h-1/5  pt-10 pb-10 max-sm:hidden sm:bg-[#151414] lg:bg-[#151414] flex justify-around items-start'>
         <div className='text-white'>
             <h1 className='mb-3'>
             Navigation
             </h1>
             {
                  data.map(item => (
+                  <Link to={"/"+ item.label}>
                     <div className='h-[40px]  font-normal text-4xl   overflow-hidden '>
-                <h1 className='ease-in hover:text-white text-zinc-400 duration-500 hover:-translate-y-[50%]'>{item} <br />{item}</h1>
+                <h1 className='ease-in hover:text-white text-zinc-400 duration-500 hover:-translate-y-[50%]'>{item.name} <br />{item.name}</h1>
             </div>
+            </Link>
                     ))
             }
            
-            
-         
             </div>
         <div className='w-1/4 text-white'>
         <h1 className='mb-3'>

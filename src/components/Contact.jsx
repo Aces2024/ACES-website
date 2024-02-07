@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { MdOutlineMailOutline } from "react-icons/md";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
