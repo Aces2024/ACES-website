@@ -29,7 +29,7 @@ const About = () => {
 
                 <h3 className="mt-8 text-lg font-semibold text-white group-hover:text-white">Technical Team</h3>
                 <p className="mt-4 text-base text-white group-hover:text-white">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                Transforming ideas into pixels and code - our tech team powers innovation at ACES
                 </p>
               </div>
             </a>
@@ -47,7 +47,7 @@ const About = () => {
               
                   <h3 className="mt-8 text-lg font-semibold text-white">Sports Team</h3>
                   <p className="mt-4 text-base text-white">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                  From the code arena to the sports field, we script victories with teamwork and competition, forging our digital legacy.
                   </p>
                 </div>
               </a>
@@ -65,7 +65,7 @@ const About = () => {
       
                   <h3 className="mt-8 text-lg font-semibold text-white">Cultural Team</h3>
                   <p className="mt-4 text-base text-white">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                  Step into a world where traditions thrive and diversity shines - the vibrant tapestry of ACES cultural team.
                   </p>
                 </div>
               </a>
@@ -82,7 +82,7 @@ const About = () => {
                 
                   <h3 className="mt-8 text-lg font-semibold text-white">Public Relations Team</h3>
                   <p className="mt-4 text-base text-white">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                  Crafting the narrative of brilliance in code, where each byte whispers a tale of innovation.
                   </p>
                 </div>
               </a>
@@ -99,7 +99,7 @@ const About = () => {
       
                   <h3 className="mt-8 text-lg font-semibold text-white">Documentation Team</h3>
                   <p className="mt-4 text-base text-white">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                  The backbone of innovation - ACES Documentations Team, where words become the building blocks of our legacy.
                   </p>
                 </div>
               </a>
@@ -113,9 +113,9 @@ const About = () => {
                 <div className="absolute bg-gray-600 top-0 left-0 w-24 h-1 z-30 transition-all duration-200 group-hover:bg-white group-hover:w-1/2"></div>
                 <div className="py-2 px-9 relative">
                 <FontAwesomeIcon icon={faUserGroup} size="3x" className="mt-2 group-hover:text-white"/>
-                  <h3 className="mt-8 text-lg font-semibold text-white">Management Team</h3>
+                  <h3 className="mt-8 text-lg font-semibold text-white">Design Team</h3>
                   <p className="mt-4 text-base text-white">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                  Embrace the intersection of creativity and innovation - the visionary minds of ACES Design Team.
                   </p>
                 </div>
               </a>
