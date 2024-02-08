@@ -2,7 +2,7 @@
 
 import React from "react";
 import Card from "./Card";
-import { peopleData } from "./imagesData";
+import { Technicals } from "./imagesData";
 import Lottie, { useLottie } from "lottie-react";
 import Team from "../../assets/font/Team.json";
 import girl from "../../assets/font/cube.json";
@@ -58,7 +58,7 @@ const Technical = () => {
         data-aos="zoom-out"
         data-aos-delay="400"
       >
-        {peopleData.map((person, index) => (
+        {Technicals.map((person, index) => (
           <Card key={index} people={[person]} />
         ))}
       </div>

@@ -1,14 +1,13 @@
 import React from 'react'
 import Canva from './Canva'
-import "../../App.css"
 
 const ModelBack = () => {
   return (
-
+    <div className="app-container"> {/* Container to center the card */}
     <div className="card ">
       <Canva />
     </div>
-
+  </div>
   )
 }
 

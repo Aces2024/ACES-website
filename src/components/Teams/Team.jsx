@@ -9,10 +9,10 @@ import lataBordadoImage from "../../assets/img/lata-bordado.webp";
 
 const Team = () => {
   const images = [
-    { src: lataFitasImage, alt: "Lata Fitas", label: "TECHNICAL" },
-    { src: lataPenasImage, alt: "Lata Penas", label: "CULTURAL" },
-    { src: lataBordadoImage, alt: "Lata Bordado", label: "MANAGEMENT" },
-    { src: lataChitaImage, alt: "Lata Chita", label: "SPORTS" },
+    { src: lataFitasImage, alt: "Lata Fitas", label: "technicals", name:"TECHNICAL" },
+    { src: lataPenasImage, alt: "Lata Penas", label: "cultural", name:"CULTURAL" },
+    { src: lataBordadoImage, alt: "Lata Bordado", label: "PR Design", name:"PR AND DESIGN" },
+    { src: lataChitaImage, alt: "Lata Chita", label: "sports", name:"GENERAL" },
   ];
   const [hoveredIndex, setHoveredIndex] = useState(null);
 

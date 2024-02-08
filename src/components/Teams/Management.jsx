@@ -2,7 +2,7 @@
 
 import React from "react";
 import Card from "./Card";
-import { peopleData } from "./imagesData";
+import { PRManagement } from "./imagesData";
 import Lottie, { useLottie } from "lottie-react";
 import Team from "../../assets/font/Team.json";
 import girl from "../../assets/font/girl.json";
@@ -40,7 +40,7 @@ const Management = () => {
             data-aos="zoom-in-down"
             data-aos-delay="400"
           >
-            Management PR TEAM
+            PR and DESIGN TEAM
           </h1>
         </div>
         <div
@@ -58,7 +58,7 @@ const Management = () => {
         data-aos="zoom-out"
         data-aos-delay="400"
       >
-        {peopleData.map((person, index) => (
+        {PRManagement.map((person, index) => (
           <Card key={index} people={[person]} />
         ))}
       </div>

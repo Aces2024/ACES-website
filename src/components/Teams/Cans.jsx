@@ -9,6 +9,7 @@ import chitaImage from "../../assets/img/Chita.webp";
 import fitasImage from "../../assets/img/Fitas.webp";
 import penasImage from "../../assets/img/Penas.webp";
 import "../../App.css";
+import { Link } from "react-router-dom";
 
 const AdditionalImages = {
   0: bordadosImage,
@@ -36,6 +37,7 @@ const Cans = ({ images, hoveredIndex, handleMouseOver, handleMouseOut }) => {
   return (
     <div className="flex justify-around w-full gap-3 mb-0 flex-grow relative mt-40">
       {images.map((image, index) => (
+        
         <div
           key={index}
           className="relative"
@@ -86,8 +88,9 @@ const Cans = ({ images, hoveredIndex, handleMouseOver, handleMouseOut }) => {
                   transition: hoveredIndex? "opacity 0.3 ease-in-out" : {},
                 }}
               >
-                {image.label}
+                {image.name}
               </div>
+            <Link to={'/' + image.label}>
           <img
             src={image.src}
             alt={image.alt}
@@ -100,6 +103,7 @@ const Cans = ({ images, hoveredIndex, handleMouseOver, handleMouseOut }) => {
             className={`w-[380px] h-[320px] object-cover flex-shrink-0 ${hoveredIndex ? {} : "opacity-70"}`}
             
           />
+          </Link> 
         </div>
       ))}
     </div>

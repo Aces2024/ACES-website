@@ -408,11 +408,3 @@ export function ACES(props) {
 }
 
 useGLTF.preload("/KartikLogo1.glb");
-
-
-
-
-
-
-
-

@@ -18,7 +18,7 @@ const New = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center p-5 pic-bg scroll-smooth">
+    <div className="min-h-screen bg-[#151414] flex flex-col items-center p-5 pic-bg scroll-smooth">
       <p
         className="rog text-8xl font-extrabold mb-4 text-white"
         data-aos="zoom-out"
@@ -26,7 +26,6 @@ const New = () => {
       >
         Project
       </p>
-    
       <Pro />
     </div>
   );

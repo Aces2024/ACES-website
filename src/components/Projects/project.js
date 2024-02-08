@@ -60,4 +60,3 @@ export const projects = [
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
   ];
-

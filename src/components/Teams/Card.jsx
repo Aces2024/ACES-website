@@ -24,7 +24,7 @@ const Card = ({ people }) => {
 
             <div className="flex flex-col space-y-4">
               <div className="flex flex-col items-center md:items-start pl-4">
-                <h2 className="orbit text-xl font-bold text-white">{person.name}</h2>
+                <h2 className="orbit text-xl font-bold text-white tracking-widest">{person.name}</h2>
                 <p className="text-base font-medium text-gray-400">{person.role}</p>
               </div>
               <div className="flex items-center justify-center space-x-3 md:justify-start pl-5">
