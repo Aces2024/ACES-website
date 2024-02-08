@@ -3,6 +3,7 @@ import About from "./About";
 
 const Gallery = () => {
     return (
+      
       <div className="bg-[#151414] pb-10">
         <About/>
         <h1 className="rog font-extrabold text-6xl text-center text-white">Gallery</h1>
