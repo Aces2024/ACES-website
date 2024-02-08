@@ -13,21 +13,21 @@ const Gallery = () => {
                 <img
                   alt="gallery"
                   className="block h-full w-full rounded-lg object-cover object-center transform-gpu hover:scale-110 transition-transform ease-in-out duration-[350ms]"
-                  src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp"
+                  src="src\assets\gal\20230228_161615.jpg"
                 />
               </div>
               <div className="w-1/2 p-1 md:p-2 grayscale">
                 <img
                   alt="gallery"
                   className="block h-full w-full rounded-lg object-cover object-center transform-gpu hover:scale-110 transition-transform ease-in-out duration-[350ms]"
-                  src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp"
+                  src="src\assets\gal\88ea6e05-7af6-4cf5-98d0-43efc3fe473a.jpg"
                 />
               </div>
               <div className="w-full p-1 md:p-2 grayscale">
                 <img
                   alt="gallery"
                   className="block h-full w-full rounded-lg object-cover object-center transform-gpu hover:scale-110 transition-transform ease-in-out duration-[350ms]"
-                  src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                  src="src\assets\gal\IMG20230220112013.jpg"
                 />
               </div>
             </div>
@@ -36,21 +36,21 @@ const Gallery = () => {
                 <img
                   alt="gallery"
                   className="block h-full w-full rounded-lg object-cover object-center transform-gpu hover:scale-110 transition-transform ease-in-out duration-[350ms]"
-                  src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp"
+                  src="src\assets\gal\IMG20230220174410.jpg"
                 />
               </div>
               <div className="w-1/2 p-1 md:p-2 grayscale">
                 <img
                   alt="gallery"
                   className="block h-full w-full rounded-lg object-cover object-center transform-gpu hover:scale-110 transition-transform ease-in-out duration-[350ms]"
-                  src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp"
+                  src="src\assets\gal\IMG20230220175247.jpg"
                 />
               </div>
               <div className="w-1/2 p-1 md:p-2 grayscale">
                 <img
                   alt="gallery"
                   className="block h-full w-full rounded-lg object-cover object-center transform-gpu hover:scale-110 transition-transform ease-in-out duration-[350ms]"
-                  src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(77).webp"
+                  src="src\assets\gal\IMG20230220180146 (1).jpg"
                 />
               </div>
             </div>

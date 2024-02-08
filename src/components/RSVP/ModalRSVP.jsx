@@ -21,7 +21,7 @@ const ModalRSVP = () => {
             <Modal isOpen={modal} toggle={toggle} fullscreen="sm">
                 <ModalHeader toggle={toggle}>
                     <div className="text-lg flex flex-row px-8  justify-between items-center ">
-                        <h1 className=""> Update Task Details</h1>
+                        <h1 className=""> Add Your details</h1>
                         <button className="font-bold " onClick={toggle}>
                             Close
                         </button>
